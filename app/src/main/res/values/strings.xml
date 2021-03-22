@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="hint_name">请输入用户名</string>
+    <string name="hint_pw">请输入密码</string>
+    <string name="login">登 录</string>
+
+    <string name="login_success">登录成功</string>
+    <string name="login_fail">登录失败</string>
+
+    <string name="username_isempty">用户名不能为空</string>
+    <string name="userpw_isempty">密码不能为空</string>
+</resources>

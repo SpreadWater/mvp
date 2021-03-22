@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/length_200"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:hint="@string/hint_name"
+        android:textSize="@dimen/size_14"/>
+
+    <EditText
+        android:id="@+id/et_pw"
+        android:layout_below="@+id/et_name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/length_200"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:hint="@string/hint_pw"
+        android:textSize="@dimen/size_14"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/et_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_20"
+        android:text="@string/login"
+        android:textSize="@dimen/size_14"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_below="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:gravity="center"
+        android:textSize="@dimen/size_14"/>
+
+</RelativeLayout>
